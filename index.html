@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Dakota Whitney" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+    />
+    <title>EMS v44.1 - Frequently Asked Questions</title>
+    <style>
+      #header-wrapper {
+        width: 100%;
+        background-color: #57068c;
+        padding: 10px 0px 5px 20px;
+        box-shadow: -10px 5px 10px;
+        position: fixed;
+        left: 0px;
+      }
+
+      #logo {
+        height: 35px;
+        width: auto;
+      }
+
+      #main-wrapper {
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        width: 100%;
+        height: 1000px;
+        padding: 50px 0px 0px 0px;
+        font-family: Montserrat, Courier, monospace;
+      }
+
+      #navbar-wrapper {
+        margin: 0px 10px 0px 0px;
+        border-right-style: solid;
+        border-right-width: 1px;
+      }
+
+      #navbar {
+        width: 100%;
+        padding: 10px 0px 0px 0px;
+      }
+
+      #navbar-header {
+        margin: 0px 0px 0px 30px;
+      }
+
+      .nav-wrapper {
+        margin: 5px 0px 5px 0px;
+        border-style: none none solid none;
+        border-width: 1px;
+      }
+
+      .nav-link {
+        display: block;
+        padding: 10px 200px 15px 10px;
+      }
+
+      section > header {
+        font-size: 20px;
+      }
+
+      section > h2 {
+        font-size: 20px;
+        text-decoration: underline;
+      }
+
+      code {
+        font-size: 17px;
+        background-color: #e6e6e6;
+      }
+
+      @media screen and (max-width: 800px) {
+        #main-wrapper {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header-wrapper">
+      <a href="#introduction"
+        ><img id="logo" src="img/stern_logo.png" alt="NYU Stern Logo"
+      /></a>
+    </div>
+    <div id="main-wrapper">
+      <div id="navbar-wrapper">
+        <nav id="navbar">
+          <header id="navbar-header">
+            <h1>
+              EMS v44.1 FAQ Page
+            </h1>
+          </header>
+          <div class="nav-wrapper">
+            <a class="nav-link" href="#introduction">Introduction</a>
+          </div>
+          <div class="nav-wrapper">
+            <a class="nav-link" href="#version_43_vs._version_44.1"
+              >Version 43 vs. Version 44.1</a
+            >
+          </div>
+          <div class="nav-wrapper">
+            <a class="nav-link" href="#ems_desktop_client"
+              >EMS Desktop Client</a
+            >
+          </div>
+          <div class="nav-wrapper">
+            <a class="nav-link" href="#ems_web_app_(formerly_virtual_ems)"
+              >EMS Web App (formerly Virtual EMS)</a
+            >
+          </div>
+          <div class="nav-wrapper">
+            <a class="nav-link" href="#miscellaneous">Miscellaneous</a>
+          </div>
+          <div class="nav-wrapper">
+            <a class="nav-link" href="#contacts">Contacts</a>
+          </div>
+        </nav>
+      </div>
+      <div id="main-doc-wrapper">
+        <main id="main-doc">
+          <section id="introduction" class="main-section">
+            <header>
+              <h1>Introduction</h1>
+            </header>
+            <p>
+              This page will provide information to frequently asked questions
+              on the Event Management System (EMS) version 44.1 at Stern.
+            </p>
+          </section>
+          <section id="version_43_vs._version_44.1" class="main-section">
+            <header>
+              <h1>Version 43 vs. Version 44.1</h1>
+            </header>
+            <p>
+              This section will provide answers to frequently asked questions
+              about the changes that have been made in EMS version 44.1 since
+              the previous version 43.
+            </p>
+            <h2>
+              Why did we upgrade?
+            </h2>
+            <p>
+              There have been significant updates to the new version of EMS,
+              including: enhanced system security, increased performance,
+              increased usability, and newly added features. There is also a new
+              back-end component, Platform Services, that allows for a wider
+              range of system customizations.
+            </p>
+            <h2>
+              What's the difference between this version and the old version?
+            </h2>
+            <p>
+              The biggest change you'll notice in EMS version 44.1 is the new
+              interface of the <code>EMS Web App</code>, the replacement product
+              for VirtualEMS. Please see the
+              <a href="#ems_web_app_(formerly_virtual_ems)">EMS Web App</a>
+              section for more information.
+            </p>
+          </section>
+          <section id="ems_desktop_client" class="main-section">
+            <header>
+              <h1>EMS Desktop Client</h1>
+            </header>
+            <p>
+              This section will provide answers to frequently asked questions
+              about the EMS Desktop Client in version 44.1.
+            </p>
+            <h2>What is the EMS Desktop Client?</h2>
+            <p>
+              The <code>EMS Desktop Client</code> is software that is installed
+              directly on your desktop workstation that allows access to all
+              functions of EMS. Plesae note some functions of the EMS Desktop
+              Client require specific permissions to access, that an EMS
+              administrator can provision with applicable business case. Please
+              see <a href="#contacts">contacts</a> on the bottom of this page
+              for information on who you can send EMS access requests.
+            </p>
+            <h2>How do I download/install the EMS Desktop Client?</h2>
+            <p>
+              EMS version 44.1 has introduced a new feature called
+              <code>EMS Desktop Client Web Deploy</code> that allows you to
+              download the EMS Desktop Client over the Stern intranet. This new
+              feature also ensures you download the most up-to-date version of
+              the Desktop Client. Please see below for the URL to download the
+              <code>EMS Desktop Client</code>: <br /><br />
+              <a
+                href="http://ems-web16-p1.stern.nyu.edu/EmsDesktopClientWebDeploy"
+                >http://ems-web16-p1.stern.nyu.edu/EmsDesktopClientWebDeploy</a
+              >
+            </p>
+          </section>
+          <section id="ems_web_app_(formerly_virtual_ems)" class="main-section">
+            <header>
+              <h1>EMS Web App (formerly Virtual EMS)</h1>
+            </header>
+            <p>
+              This section will provide answers to frequently asked questions
+              about the EMS Web App, formerly Virtual EMS.
+            </p>
+            <h2>What is the EMS Web App?</h2>
+            <p>
+              The <code>EMS Web App</code> is the upgraded version of
+              VirtualEMS. It provides all of the same functionality as
+              VirtualEMS with an updated user interface.
+            </p>
+
+            <h2>How do I log onto the EMS Web App?</h2>
+            <p>
+              The login page for the <code>EMS Web App</code> can be found here:
+              <a href="https://ems-web16-p1.stern.nyu.edu/EmsWebApp/"
+                >https://ems-web16-p1.stern.nyu.edu/EmsWebApp/</a
+              >
+            </p>
+          </section>
+          <section id="miscellaneous" class="main-section">
+            <header>
+              <h1>Miscellaneous</h1>
+            </header>
+            <p>
+              This section will provide answers to frequently asked
+              miscellaneous questions about EMS version 44.1.
+            </p>
+          </section>
+          <section id="contacts" class="main-section">
+            <header>
+              <h1>Contacts</h1>
+            </header>
+            <p>
+              This section will provide EMS 44.1 departmental and support
+              contact information.
+            </p>
+          </section>
+        </main>
+      </div>
+    </div>
+  </body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
