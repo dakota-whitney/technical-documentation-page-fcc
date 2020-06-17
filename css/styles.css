@@ -1,7 +1,19 @@
-#header-wrapper {
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
   width: 100%;
   background-color: #57068c;
-  padding: 10px 0px 5px 20px;
+  padding: 20px 0px 20px 20px;
   box-shadow: -10px 5px 10px;
   position: fixed;
   left: 0px;
@@ -12,40 +24,35 @@
   width: auto;
 }
 
-#main-wrapper {
+#nav-doc {
   display: flex;
   flex-direction: row;
   background-color: white;
   width: 100%;
   height: 100%;
-  padding: 50px 0px 0px 0px;
+  padding: 100px 0px 0px 0px;
   font-family: Montserrat, Courier, monospace;
 }
 
-#navbar-wrapper {
+#navbar {
+  padding: 10px 0px 0px 0px;
   margin: 0px 10px 0px 0px;
   border-right-style: solid;
   border-right-width: 1px;
 }
 
-#navbar {
-  width: 100%;
-  padding: 10px 0px 0px 0px;
-}
-
-#navbar-header {
-  margin: 0px 0px 0px 30px;
-}
-
-.nav-wrapper {
+.nav-link {
+  display: block;
+  padding: 10px 100px 15px 10px;
   margin: 5px 0px 5px 0px;
   border-style: none none solid none;
   border-width: 1px;
+  white-space: nowrap;
+  color: black;
 }
 
-.nav-link {
-  display: block;
-  padding: 10px 200px 15px 10px;
+.main-section {
+  line-height: 1.5;
 }
 
 section > header {
@@ -55,6 +62,7 @@ section > header {
 section > h2 {
   font-size: 20px;
   text-decoration: underline;
+  padding: 5px 0px 5px 0px;
 }
 
 code {
