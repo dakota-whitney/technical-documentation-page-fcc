@@ -49,7 +49,7 @@
 }
 
 #navbar-header {
-  padding-left: 60px;
+  padding: 10px 0px 0px 60px;
 }
 
 .nav-link {
@@ -60,6 +60,10 @@
   border-width: 1px;
   white-space: nowrap;
   color: black;
+}
+
+#main-doc {
+  padding: 10px 0px 0px 0px;
 }
 
 .main-section {
