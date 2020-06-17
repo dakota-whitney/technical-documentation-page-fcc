@@ -23,6 +23,7 @@
 #logo {
   height: 35px;
   width: auto;
+  margin: 0px 0px 0px 10px;
 }
 
 .header-link {
@@ -42,10 +43,14 @@
 }
 
 #navbar {
+  position: fixed;
   padding: 10px 0px 0px 0px;
   margin: 0px 10px 0px 0px;
   border-right-style: solid;
   border-right-width: 1px;
+  background-color: white;
+  height: 100%;
+  box-shadow: 0px 0px 8px;
 }
 
 #navbar-header {
@@ -63,7 +68,8 @@
 }
 
 #main-doc {
-  padding: 10px 0px 0px 0px;
+  margin: 0px 0px 0px 410px;
+  padding: 10px;
 }
 
 .main-section {
@@ -86,7 +92,7 @@ code {
 }
 
 @media screen and (max-width: 800px) {
-  #main-wrapper {
+  #main {
     display: flex;
     flex-direction: column;
   }
